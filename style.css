@@ -1,23 +1,41 @@
+body{
+  background-image: url(https://survivetheark.com/index.php?/gallery/image/12771-crystal-cavesjpg/&do=download);
+}
+
+#title{
+  text-align: center;
+  clear: both;
+  }
+
+#instructions{
+  text-align: center;
+  clear: both;
+}
 
 .jumbotron{
-  display: flex;
   justify-content: center;
+  opacity: 0.8;
 }
 
 #panel-override{
   margin: 0 40px 40px 40px;
   padding: 0%;
+  opacity: 0.9;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 #panel-override2{
   margin: 0 40px 40px 40px;
   padding: 0%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 #jewels{
   display: flex;
   justify-content: center;
+  opacity: 0.85;
 }
+
 
 .row{
   margin: auto;
@@ -35,19 +53,49 @@
   justify-content: center;
 }
 
+#wins{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#losses{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
 #gem{
   height: 15%;
   width: 15%;
   margin:0 5% 0 5%;
 }
+#gem:hover{
+  box-shadow: 5px 5px 15px 5px gray ;
+}
 
-
-#gem3{
+#gem1{
   height: 20%;
   width: 20%;
 }
+#gem1:hover{
+  box-shadow: 5px 5px 15px 5px gray ;
+}
+
+#gem3{
+  height: 15%;
+  width: 15%;
+  margin:0 5% 0 5%;
+}
+#gem3:hover{
+  box-shadow: 5px 5px 15px 5px gray ;
+}
 
 #gem2{
-  height: 30%;
-  width: 30%;
+  height: 15%;
+  width: 15%;
+  margin:0 5% 0 5%;
+}
+#gem2:hover{
+  box-shadow: 5px 5px 15px 5px gray ;
 }
